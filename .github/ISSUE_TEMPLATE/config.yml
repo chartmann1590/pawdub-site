@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Privacy Policy
+    url: https://chartmann1590.github.io/pawdub-site/privacy/
+    about: How Pawdub handles your camera, microphone and data.
+  - name: Delete your data
+    url: https://chartmann1590.github.io/pawdub-site/delete/
+    about: How to delete clips and pet profiles from your phone.
