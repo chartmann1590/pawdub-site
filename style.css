@@ -66,7 +66,7 @@ h1,h2,h3{font-family:var(--font);letter-spacing:-.025em;line-height:1.02;margin:
 .lang-c b{position:absolute;top:4.6%;right:13%;opacity:0;animation:fadeL 16s infinite both}
 .lang-c b:nth-child(2){animation-delay:4s}.lang-c b:nth-child(3){animation-delay:8s}.lang-c b:nth-child(4){animation-delay:12s}
 @keyframes slam{0%{opacity:0;transform:scale(1.35) translateY(4px)}1.6%{opacity:1;transform:scale(.95)}3%{transform:scale(1.02)}4%{transform:scale(1)}22%{opacity:1;transform:scale(1)}24.5%,100%{opacity:0;transform:scale(1)}}
-@keyframes fadeL{0%,24%{opacity:1}25%,100%{opacity:0}}
+@keyframes fadeL{0%{opacity:0}.5%,24%{opacity:1}25%,100%{opacity:0}}
 @keyframes blink{0%,60%{opacity:1}61%,100%{opacity:.25}}
 .ring{transform-origin:center;transform-box:fill-box;animation:ring 4s infinite;opacity:0}
 .ring.r2{animation-delay:.25s}.ring.r3{animation-delay:.5s}
